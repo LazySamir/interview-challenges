@@ -30,3 +30,5 @@ get_max_profit(stock_prices)
 My approach is to first solve the problem in any way and then make it more efficient.
 
 The simplest solution I can see is to iterate over the array, comparing the current element with it's following elements. There needs to be a check to see if the difference between the two elements is higher than anything previously recorded (this can be saved as a variable) and if it is, assign the new value to the variable.
+
+Update: added if statement to ensure elements were only compared with elements that come after.
